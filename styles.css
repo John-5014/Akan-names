@@ -3,7 +3,7 @@ body {
   padding: 0;
   background-image: url(./images/terrific.png);
   background-size: cover;
-  font-family: sans-serif;height: 150vh;
+  font-family: sans-serif;height: 170vh;
   background-repeat: no-repeat;
   
 }
@@ -12,7 +12,7 @@ body {
   /* height: 620px; */
   /* background-image: url(./images/ghanatree.jpg) ; */
   color:white;
-  top: 1%;
+  top: 4%;
   left: 50%;
   position: absolute;
   transform: translate(-50%, 50%);
@@ -24,4 +24,26 @@ body {
   /* background-size: cover; */
   text-align: center;
 
+}
+h2{
+  /* margin:12px; */
+  padding-left:-2px;
+  text-align: center;
+  font-size: 22px;
+  color:white ;
+}
+.akuta p{
+  margin: 0;
+  padding:0;
+  margin-bottom: 20px;
+  font-weight:bold;
+}
+.akuta input[type="submit"]{
+  border:none;
+  outline: none;
+  height:40px;
+  background: #fb2525;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
 }
