@@ -47,3 +47,14 @@ h2{
   font-size: 18px;
   border-radius: 20px;
 }
+.akuta input[type="submit"]:hover{
+  cursor:pointer;
+  background: yellow;
+  color:#000;
+}
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+  /* text-shadow:red; */
+  color:white;
+
+}
