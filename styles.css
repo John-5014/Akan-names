@@ -8,25 +8,21 @@ body {
   
 }
 .akuta{
-  /* width: 320px; */
-  /* height: 620px; */
-  /* background-image: url(./images/ghanatree.jpg) ; */
+  
   color:white;
   top: 4%;
   left: 50%;
   position: absolute;
   transform: translate(-50%, 50%);
-  /* box-sizing: border-box; */
-  /* border-radius: 20px 20px 20px 20px; */
+ 
   padding: 70px 30px;
   margin-bottom: 20%;
-  /* background-repeat: no-repeat; */
-  /* background-size: cover; */
+ 
   text-align: center;
 
 }
 h2{
-  /* margin:12px; */
+ 
   padding-left:-2px;
   text-align: center;
   font-size: 22px;
@@ -54,7 +50,7 @@ h2{
 }
 h1 {
   font-family: 'Times New Roman', Times, serif;
-  /* text-shadow:red; */
+  
   color:white;
 
 }
