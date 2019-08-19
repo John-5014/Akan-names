@@ -4,15 +4,14 @@ function validateform(){
   var year = Number(document.getElementById("year").value);
   var century = Number(document.getElementById("centuary").value);
   var genderSelected = document.getElementsByName("gender");
-  function genderPicked() {
+  function genderselected() {
       for (var gender of genderSelected) {
           if (gender.checked){
               return gender.value;
           }
       }
   }
-  var genderValue = genderPicked();
-  // alert(genderValue);
+  var genderValue = genderselected();
   function dayValid () {
       if (day < 1 || day > 31) {
           alert("Invalid day")
