@@ -2,8 +2,9 @@ function validateform(){
   var day = document.getElementById("day").value;
   var month = document.getElementById("month").value;
   var year = document.getElementById("year").value;
+  var centuary = document.getElementById("centuary").value;
   var gender = document.getElementsByName("gender");
-  var century = document.getElementById("century");
+ 
 
   if (day == "" || day == null) {
     alert("Day is required");
@@ -33,18 +34,16 @@ function validateform(){
     }
   }
 
-  if (century == "" || century == null) {
+  if (centuary == "" || centuary == null) {
     alert("century is required");
   } else {
-    if (!isNaN(century)) {
-      if (century <= 0 || century > 21) {
-        alert("century is invalid");
+    if (!isNaN(centuary)) {
+      
+        alert("centuary is invalid");
       } else {
-        alert(century);
+        alert(centuary);
       }
-    } else {
-      alert("Number required");
-    }
+    
   }
 
 
@@ -72,6 +71,7 @@ function validateform(){
     }
   }
 
+ 
 
 
 
