@@ -1,5 +1,5 @@
 # My Portfolio website
-This is a personal website
+This is my second project on Akan names.
 #### By **John *Karanja N.*
 ## Description
 In this website it is basically a calculator of age to display the akan name of a particular person depending on their gender.
