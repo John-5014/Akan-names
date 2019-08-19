@@ -8,6 +8,7 @@ In this website it is basically a calculator of age to display the akan name of 
 * An active internet
 * A computer or network access device
 * link to the website or the url
+** https://john-5014.github.io/Akan-names/ **
 
 ## Known Bugs
 The site had problems running the javascript when tried with visual studio.
